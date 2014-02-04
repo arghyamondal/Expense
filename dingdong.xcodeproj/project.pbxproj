@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C44F97718A1388C0097D26C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C44F97618A1388C0097D26C /* Foundation.framework */; };
+		3C44F97918A1388C0097D26C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C44F97818A1388C0097D26C /* CoreGraphics.framework */; };
+		3C44F97B18A1388C0097D26C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C44F97A18A1388C0097D26C /* UIKit.framework */; };
+		3C44F97D18A1388C0097D26C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C44F97C18A1388C0097D26C /* CoreData.framework */; };
+		3C44F98318A1388C0097D26C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C44F98118A1388C0097D26C /* InfoPlist.strings */; };
+		3C44F98518A1388C0097D26C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C44F98418A1388C0097D26C /* main.m */; };
+		3C44F98918A1388C0097D26C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C44F98818A1388C0097D26C /* AppDelegate.m */; };
+		3C44F98C18A1388C0097D26C /* dingdong.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3C44F98A18A1388C0097D26C /* dingdong.xcdatamodeld */; };
+		3C44F98E18A1388C0097D26C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C44F98D18A1388C0097D26C /* Images.xcassets */; };
+		3C44F99518A1388C0097D26C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C44F99418A1388C0097D26C /* XCTest.framework */; };
+		3C44F99618A1388C0097D26C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C44F97618A1388C0097D26C /* Foundation.framework */; };
+		3C44F99718A1388C0097D26C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C44F97A18A1388C0097D26C /* UIKit.framework */; };
+		3C44F99818A1388C0097D26C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C44F97C18A1388C0097D26C /* CoreData.framework */; };
+		3C44F9A018A1388C0097D26C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C44F99E18A1388C0097D26C /* InfoPlist.strings */; };
+		3C44F9A218A1388C0097D26C /* dingdongTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C44F9A118A1388C0097D26C /* dingdongTests.m */; };
+		3C44F9AE18A13E370097D26C /* CategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C44F9AC18A13E370097D26C /* CategoryViewController.m */; };
+		3C44F9AF18A13E370097D26C /* CategoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C44F9AD18A13E370097D26C /* CategoryViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C44F99918A1388C0097D26C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C44F96B18A1388C0097D26C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C44F97218A1388C0097D26C;
+			remoteInfo = dingdong;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C44F97318A1388C0097D26C /* dingdong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dingdong.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C44F97618A1388C0097D26C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3C44F97818A1388C0097D26C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3C44F97A18A1388C0097D26C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3C44F97C18A1388C0097D26C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3C44F98018A1388C0097D26C /* dingdong-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "dingdong-Info.plist"; sourceTree = "<group>"; };
+		3C44F98218A1388C0097D26C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3C44F98418A1388C0097D26C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C44F98618A1388C0097D26C /* dingdong-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "dingdong-Prefix.pch"; sourceTree = "<group>"; };
+		3C44F98718A1388C0097D26C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3C44F98818A1388C0097D26C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3C44F98B18A1388C0097D26C /* dingdong.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = dingdong.xcdatamodel; sourceTree = "<group>"; };
+		3C44F98D18A1388C0097D26C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3C44F99318A1388C0097D26C /* dingdongTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dingdongTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C44F99418A1388C0097D26C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3C44F99D18A1388C0097D26C /* dingdongTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "dingdongTests-Info.plist"; sourceTree = "<group>"; };
+		3C44F99F18A1388C0097D26C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3C44F9A118A1388C0097D26C /* dingdongTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dingdongTests.m; sourceTree = "<group>"; };
+		3C44F9AB18A13E370097D26C /* CategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryViewController.h; sourceTree = "<group>"; };
+		3C44F9AC18A13E370097D26C /* CategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryViewController.m; sourceTree = "<group>"; };
+		3C44F9AD18A13E370097D26C /* CategoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoryViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C44F97018A1388C0097D26C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C44F97918A1388C0097D26C /* CoreGraphics.framework in Frameworks */,
+				3C44F97D18A1388C0097D26C /* CoreData.framework in Frameworks */,
+				3C44F97B18A1388C0097D26C /* UIKit.framework in Frameworks */,
+				3C44F97718A1388C0097D26C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C44F99018A1388C0097D26C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C44F99518A1388C0097D26C /* XCTest.framework in Frameworks */,
+				3C44F99818A1388C0097D26C /* CoreData.framework in Frameworks */,
+				3C44F99718A1388C0097D26C /* UIKit.framework in Frameworks */,
+				3C44F99618A1388C0097D26C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C44F96A18A1388C0097D26C = {
+			isa = PBXGroup;
+			children = (
+				3C44F97E18A1388C0097D26C /* dingdong */,
+				3C44F99B18A1388C0097D26C /* dingdongTests */,
+				3C44F97518A1388C0097D26C /* Frameworks */,
+				3C44F97418A1388C0097D26C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C44F97418A1388C0097D26C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C44F97318A1388C0097D26C /* dingdong.app */,
+				3C44F99318A1388C0097D26C /* dingdongTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C44F97518A1388C0097D26C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C44F97618A1388C0097D26C /* Foundation.framework */,
+				3C44F97818A1388C0097D26C /* CoreGraphics.framework */,
+				3C44F97A18A1388C0097D26C /* UIKit.framework */,
+				3C44F97C18A1388C0097D26C /* CoreData.framework */,
+				3C44F99418A1388C0097D26C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C44F97E18A1388C0097D26C /* dingdong */ = {
+			isa = PBXGroup;
+			children = (
+				3C44F98718A1388C0097D26C /* AppDelegate.h */,
+				3C44F98818A1388C0097D26C /* AppDelegate.m */,
+				3C44F98D18A1388C0097D26C /* Images.xcassets */,
+				3C44F98A18A1388C0097D26C /* dingdong.xcdatamodeld */,
+				3C44F97F18A1388C0097D26C /* Supporting Files */,
+				3C44F9AB18A13E370097D26C /* CategoryViewController.h */,
+				3C44F9AC18A13E370097D26C /* CategoryViewController.m */,
+				3C44F9AD18A13E370097D26C /* CategoryViewController.xib */,
+			);
+			path = dingdong;
+			sourceTree = "<group>";
+		};
+		3C44F97F18A1388C0097D26C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C44F98018A1388C0097D26C /* dingdong-Info.plist */,
+				3C44F98118A1388C0097D26C /* InfoPlist.strings */,
+				3C44F98418A1388C0097D26C /* main.m */,
+				3C44F98618A1388C0097D26C /* dingdong-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C44F99B18A1388C0097D26C /* dingdongTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C44F9A118A1388C0097D26C /* dingdongTests.m */,
+				3C44F99C18A1388C0097D26C /* Supporting Files */,
+			);
+			path = dingdongTests;
+			sourceTree = "<group>";
+		};
+		3C44F99C18A1388C0097D26C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C44F99D18A1388C0097D26C /* dingdongTests-Info.plist */,
+				3C44F99E18A1388C0097D26C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C44F97218A1388C0097D26C /* dingdong */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C44F9A518A1388C0097D26C /* Build configuration list for PBXNativeTarget "dingdong" */;
+			buildPhases = (
+				3C44F96F18A1388C0097D26C /* Sources */,
+				3C44F97018A1388C0097D26C /* Frameworks */,
+				3C44F97118A1388C0097D26C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dingdong;
+			productName = dingdong;
+			productReference = 3C44F97318A1388C0097D26C /* dingdong.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C44F99218A1388C0097D26C /* dingdongTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C44F9A818A1388C0097D26C /* Build configuration list for PBXNativeTarget "dingdongTests" */;
+			buildPhases = (
+				3C44F98F18A1388C0097D26C /* Sources */,
+				3C44F99018A1388C0097D26C /* Frameworks */,
+				3C44F99118A1388C0097D26C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C44F99A18A1388C0097D26C /* PBXTargetDependency */,
+			);
+			name = dingdongTests;
+			productName = dingdongTests;
+			productReference = 3C44F99318A1388C0097D26C /* dingdongTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C44F96B18A1388C0097D26C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "BSA Univ4";
+				TargetAttributes = {
+					3C44F99218A1388C0097D26C = {
+						TestTargetID = 3C44F97218A1388C0097D26C;
+					};
+				};
+			};
+			buildConfigurationList = 3C44F96E18A1388C0097D26C /* Build configuration list for PBXProject "dingdong" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3C44F96A18A1388C0097D26C;
+			productRefGroup = 3C44F97418A1388C0097D26C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C44F97218A1388C0097D26C /* dingdong */,
+				3C44F99218A1388C0097D26C /* dingdongTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C44F97118A1388C0097D26C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C44F98318A1388C0097D26C /* InfoPlist.strings in Resources */,
+				3C44F98E18A1388C0097D26C /* Images.xcassets in Resources */,
+				3C44F9AF18A13E370097D26C /* CategoryViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C44F99118A1388C0097D26C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C44F9A018A1388C0097D26C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C44F96F18A1388C0097D26C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C44F9AE18A13E370097D26C /* CategoryViewController.m in Sources */,
+				3C44F98918A1388C0097D26C /* AppDelegate.m in Sources */,
+				3C44F98C18A1388C0097D26C /* dingdong.xcdatamodeld in Sources */,
+				3C44F98518A1388C0097D26C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C44F98F18A1388C0097D26C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C44F9A218A1388C0097D26C /* dingdongTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C44F99A18A1388C0097D26C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C44F97218A1388C0097D26C /* dingdong */;
+			targetProxy = 3C44F99918A1388C0097D26C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C44F98118A1388C0097D26C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C44F98218A1388C0097D26C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3C44F99E18A1388C0097D26C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C44F99F18A1388C0097D26C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C44F9A318A1388C0097D26C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3C44F9A418A1388C0097D26C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C44F9A618A1388C0097D26C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "dingdong/dingdong-Prefix.pch";
+				INFOPLIST_FILE = "dingdong/dingdong-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3C44F9A718A1388C0097D26C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "dingdong/dingdong-Prefix.pch";
+				INFOPLIST_FILE = "dingdong/dingdong-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3C44F9A918A1388C0097D26C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/dingdong.app/dingdong";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "dingdong/dingdong-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "dingdongTests/dingdongTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3C44F9AA18A1388C0097D26C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/dingdong.app/dingdong";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "dingdong/dingdong-Prefix.pch";
+				INFOPLIST_FILE = "dingdongTests/dingdongTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C44F96E18A1388C0097D26C /* Build configuration list for PBXProject "dingdong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C44F9A318A1388C0097D26C /* Debug */,
+				3C44F9A418A1388C0097D26C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C44F9A518A1388C0097D26C /* Build configuration list for PBXNativeTarget "dingdong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C44F9A618A1388C0097D26C /* Debug */,
+				3C44F9A718A1388C0097D26C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3C44F9A818A1388C0097D26C /* Build configuration list for PBXNativeTarget "dingdongTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C44F9A918A1388C0097D26C /* Debug */,
+				3C44F9AA18A1388C0097D26C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3C44F98A18A1388C0097D26C /* dingdong.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3C44F98B18A1388C0097D26C /* dingdong.xcdatamodel */,
+			);
+			currentVersion = 3C44F98B18A1388C0097D26C /* dingdong.xcdatamodel */;
+			path = dingdong.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3C44F96B18A1388C0097D26C /* Project object */;
+}
